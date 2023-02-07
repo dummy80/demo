@@ -12,7 +12,7 @@ public class TestController {
     public String hello(@RequestParam(value = "name", defaultValue = "World") String name) {
         return String.format("Hello %s!", name);
     }
-    @GetMapping("/bay")
+    @GetMapping("/baybay")
     public String hello() {
         return "See you later!";
     }
