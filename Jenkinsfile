@@ -8,7 +8,6 @@ pipeline {
     stage('Initialize') {
       steps {
         bat '''
-            java -version
             mvn --version
             docker --version
         '''
